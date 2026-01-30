@@ -5,7 +5,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   // El ID 2000 corresponde a la Copa del Mundo en Football-Data.org
-  const API_URL = '/api/competitions/WC/standings';
+  const API_URL = '/api/competitions/CL/standings';
   const API_KEY = import.meta.env.VITE_FOOTBALL_API_KEY;
 
   useEffect(() => {
